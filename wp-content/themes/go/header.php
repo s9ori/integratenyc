@@ -14,6 +14,7 @@ $header_flex_class = in_array( get_theme_mod( 'header_variation', \Go\Core\get_d
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+	hello
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
