@@ -20,6 +20,11 @@ function my_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
+function add_new_styles() {
+    wp_enqueue_style ( 'new-styles', get_template_directory_uri() . 'dist/css/new-styles.css' );
+}
+add_action( 'wp_enqueue_scripts', 'add_new_styles' );
+
 /**
  * AMPP setup, hooks, and filters.
  */
