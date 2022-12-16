@@ -1,4 +1,4 @@
-<><script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script><script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script><script>
 	// define the schoolData array
     let schoolData = [];
     // define a variable to hold the pie chart object
@@ -98,4 +98,4 @@
         console.error(error)};
     }
     }
-</script></>
+</script>
