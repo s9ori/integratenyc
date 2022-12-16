@@ -14,12 +14,10 @@ define( 'GO_PLUGIN_URL', get_template_directory_uri( __FILE__ ) );
 
 function my_theme_scripts() {
     // Enqueue other styles and scripts
-	wp_enqueue_style ( 'new-styles', get_template_directory_uri() . '/dist/css/new-styles.css', array(), '1.0.0', true );
 
-    // Enqueue the school.js script
-    wp_enqueue_script( 'school', get_template_directory_uri() . '/dist/js/school.js', array(), '1.0.0', true );
+ wp_enqueue_script( 'school', get_template_directory_uri() . '/dist/js/school.js', array(), '1.0.0', true );
 }
-add_action( 'wp_enqueue_scripts', 'wp_enqueue_style', 'my_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
 /**
  * AMPP setup, hooks, and filters.
