@@ -6,7 +6,7 @@
  */
 
 /**
- * Theme constants.
+ * Theme constadnts.
  */
 define( 'GO_VERSION', '1.7.3' );
 define( 'GO_PLUGIN_DIR', get_template_directory( __FILE__ ) );

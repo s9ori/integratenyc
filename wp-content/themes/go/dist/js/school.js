@@ -24,7 +24,7 @@
 
 
     try {
-        // fetch the data from the API
+        // fetch thfe data from the API
     }
   // fetch the data from the API
     const response = await fetch(`${API_URL}?${query}`);
