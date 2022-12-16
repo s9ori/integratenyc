@@ -105,6 +105,8 @@ body {
     #school-name {
         color: black;
         text-align: center;
+        white-space: normal;
+        background: transparent;
     }
 
     select {
@@ -142,10 +144,6 @@ body {
         }
     }
 
-    #school-name {
-        white-space: normal;
-    }
-
     form:hover input[type="submit"] {
         transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
         background-color: black;
@@ -171,7 +169,7 @@ body {
     form {
         opacity: 0;
         z-index: 10;
-        margin: 0 auto;
+        margin: 50px auto;
         width: 500px;
         height: 500px;
         display: flex;
