@@ -1,7 +1,10 @@
-body {
-        background: #E6E6E6;
-        width: 100%;
-    }
+body.light {
+        background-color: white;
+      }
+      
+      body.dark {
+        background-color: black;
+      }
 
     @-webkit-keyframes gradient {
         0% {
