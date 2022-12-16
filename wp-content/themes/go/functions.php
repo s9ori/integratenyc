@@ -25,6 +25,8 @@ function add_new_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'add_new_styles' );
 
+wp_enqueue_style('new-styles');
+
 /**
  * AMPP setup, hooks, and filters.
  */
