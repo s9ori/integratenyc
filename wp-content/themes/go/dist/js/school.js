@@ -5,8 +5,8 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark');
   form.classList.toggle('light');
   form.classList.toggle('dark');
-  selectElement.classList.toggle('light');
-  selectElement.classList.toggle('dark');
+  schoolName.classList.toggle('light');
+  schoolName.classList.toggle('dark');
 
   // Change the SVG icon on the button
   if (toggleButton.innerHTML.includes('sun')) {
