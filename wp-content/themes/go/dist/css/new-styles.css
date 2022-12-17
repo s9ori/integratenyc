@@ -71,6 +71,9 @@ body {
         }
     }
 
+    #theme-toggle {
+        border-radius: 50%
+    }
     input[type="submit"]:hover {
         animation: shake 4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         animation-iteration-count: infinite;
