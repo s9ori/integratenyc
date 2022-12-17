@@ -1,4 +1,4 @@
-body.light {
+body {
         background-color: #FDF8F4;
       }
       
@@ -168,7 +168,7 @@ body.light {
         top: -500px;
     }
 
-    form.light {
+    form {
         opacity: 0;
         z-index: 10;
         margin: 50px auto;
@@ -182,15 +182,15 @@ body.light {
         position: relative;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
-        background-color: #04D9B2;
+        background-color: #3C36D9;
         padding: 20px !important;
         box-sizing: border-box;
         transition: opacity 2s ease-in-out, background-color 0.5s ease-in-out;
         overflow: hidden;
     }
 
-    form.light {
-        background-color: #3C36D9;
+    form.dark {
+        background-color: #04D9B2;
     }
 
     @media screen and (max-width: 600px) {
