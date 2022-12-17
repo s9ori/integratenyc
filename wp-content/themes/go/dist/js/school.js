@@ -15,8 +15,8 @@ toggleButton.addEventListener('click', () => {
   if (img.getAttribute('src') === 'wp-content/themes/go/dist/images/sun1.svg') {
     img.setAttribute('src', 'wp-content/themes/go/dist/images/moon.svg');
   } else {
-    img.setAttribute('src', 'wp-content/themes/go/dist/images/moon.svg');
-  }
+    img.setAttribute('src', 'wp-content/themes/go/dist/images/sun1.svg');
+  }  
 });
 
 // define the schoolData array
