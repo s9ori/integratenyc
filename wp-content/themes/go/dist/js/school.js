@@ -5,9 +5,9 @@ toggleButton.addEventListener('click', () => {
 
   // Check the time and toggle the appropriate class on the body element
   if (currentTime < 6 || currentTime > 15) {
-    document.body.classList.toggle('dark');
-  } else {
     document.body.classList.toggle('light');
+  } else {
+    document.body.classList.toggle('dark');
   }
 
   // Toggle the light and dark classes on the body and form elements
