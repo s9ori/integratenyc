@@ -7,6 +7,16 @@ toggleButton.addEventListener('click', () => {
   form.classList.toggle('dark');
   school_name.classList.toggle('light');
   school_name.classList.toggle('dark');
+
+  // Get the <img> element inside the button
+  const img = toggleButton.querySelector('img');
+  
+  // Toggle the src attribute of the <img> element
+  if (img.getAttribute('src') === 'wp-content/themes/go/dist/images/sun1.svg') {
+    img.setAttribute('src', 'wp-content/themes/go/dist/images/moon.svg');
+  } else {
+    img.setAttribute('src', 'wp-content/themes/go/dist/images/moon.svg');
+  }
 });
 
 // define the schoolData array
