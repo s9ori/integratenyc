@@ -2,7 +2,10 @@ const toggleButton = document.getElementById('theme-toggle');
 toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('light');
   document.body.classList.toggle('dark');
+  form.classList.toggle('light')
+  form.classList.toggle('dark');
 });
+
 // define the schoolData array
 let schoolData = [];
 
