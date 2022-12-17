@@ -72,7 +72,13 @@ body {
     }
 
     #theme-toggle {
-        border-radius: 50%
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     input[type="submit"]:hover {
         animation: shake 4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
