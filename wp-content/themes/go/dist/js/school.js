@@ -4,8 +4,8 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark');
   form.classList.toggle('light');
   form.classList.toggle('dark');
-  select.classList.toggle('light');
-  select.classList.toggle('dark');
+  selectElement.classList.toggle('light');
+  selectElement.classList.toggle('dark');
 });
 
 // define the schoolData array
