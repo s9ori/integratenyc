@@ -104,7 +104,7 @@ body {
         justify-content: flex-end !important;
     }
 
-    #school-name.light {
+    #school-name {
         color: white;
         text-align: center;
         white-space: normal;
@@ -172,7 +172,7 @@ body {
         top: -500px;
     }
 
-    form.light {
+    form {
         opacity: 0;
         z-index: 10;
         margin: 50px auto;
