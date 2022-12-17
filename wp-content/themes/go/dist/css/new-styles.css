@@ -104,11 +104,15 @@ body {
         justify-content: flex-end !important;
     }
 
-    #school-name {
-        color: black;
+    #school-name.light {
+        color: white;
         text-align: center;
         white-space: normal;
         background: transparent;
+    }
+
+    #school-name.dark {
+        color: #121212;
     }
 
     select {
@@ -168,7 +172,7 @@ body {
         top: -500px;
     }
 
-    form {
+    form.light {
         opacity: 0;
         z-index: 10;
         margin: 50px auto;
