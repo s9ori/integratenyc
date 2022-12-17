@@ -214,8 +214,12 @@ body {
         }
     }
 
+    form.dark:hover {
+        background-color: #02eec3;
+    }
+
     form:hover {
-        background-color: #C7FF01;
+        background-color: #4843dd;
         transition: all 0.5s ease-in-out;
         animation: grow-and-shrink 4000ms;
         animation-iteration-count: infinite;
