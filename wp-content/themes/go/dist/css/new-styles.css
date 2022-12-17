@@ -87,7 +87,7 @@ body {
 
     @media only screen and (max-width: 600px) {
         select,
-        #school-name {
+        #school_name {
             /* make the select field 100px wide on small screens */
             width: 300px !important;
         }
@@ -113,14 +113,14 @@ body {
         justify-content: flex-end !important;
     }
 
-   #school-name {
+   #school_name {
         color: white;
         text-align: center;
         white-space: normal;
         background: transparent;
     }
 
-    .dark #school-name {
+    .dark #school_name {
         color: #121212;
     }
 

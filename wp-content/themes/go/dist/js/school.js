@@ -6,8 +6,8 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark');
   form.classList.toggle('light');
   form.classList.toggle('dark');
-  select.classList.toggle('light');
-  select.classList.toggle('dark');
+  school_name.classList.toggle('light');
+  school_name.classList.toggle('dark');
   
     // Change the SVG icon on the button
     if (icon.innerHTML.includes('sun')) {
@@ -32,7 +32,7 @@ async function fetchData() {
   let API_URL = "https://data.cityofnewyork.us/resource/c7ru-d68s.json";
 
   // get the selected school name from the form
-  let select = document.getElementById('school-name');
+  let select = document.getElementById('school_name');
   let schoolName = select.value.replace(/&amp;/g, '&');
 
   // do not attempt to fetch data if no school name has been selected
