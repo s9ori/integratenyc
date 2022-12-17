@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const toggleButton = document.getElementById('theme-toggle');
 const icon = document.getElementById('icon');
 toggleButton.addEventListener('click', () => {
@@ -17,6 +18,7 @@ toggleButton.addEventListener('click', () => {
       // If the current icon is not the sun icon, assume it is the moon icon and replace it with the sun icon
       icon.innerHTML = '<path d="M22.5,10.5H19.349a7.455,7.455,0,0,0-1.1-2.632l2.232-2.232a1.5,1.5,0,0,0-2.121-2.121L16.132,5.747a7.455,7.455,0,0,0-2.632-1.1V1.5a1.5,1.5,0,0,0-3,0V4.651a7.455,7.455,0,0,0-2.632,1.1L5.636,3.515A1.5,1.5,0,0,0,3.515,5.636L5.747,7.868a7.455,7.455,0,0,0-1.1,2.632H1.5a1.5,1.5,0,0,0,0,3H4.651a7.455,7.455,0,0,0,1.1,2.632L3.515,18.364a1.5,1.5,0,0,0,2.121,2.121l2.232-2.232a7.455,7.455,0,0,0,2.632,1.1H22.5a1.5,1.5,0,0,0,0-3ZM12,18.5A6.5,6.5,0,1,1,18.5,12,6.5,6.5,0,0,1,12,18.5Z"/>';
   }
+});
 });
 
 
