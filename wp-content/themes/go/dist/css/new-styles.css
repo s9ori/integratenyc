@@ -190,24 +190,8 @@ body.light {
     }
 
     form.dark {
-        opacity: 0;
-        z-index: 10;
-        margin: 50px auto;
-        width: 500px;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        animation: grow-and-shrink 4000ms;
-        position: relative;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
+
         background-color: #04D9B2;
-        padding: 20px !important;
-        box-sizing: border-box;
-        transition: opacity 2s ease-in-out, background-color 0.5s ease-in-out;
-        overflow: hidden;
     }
 
     @media screen and (max-width: 600px) {
