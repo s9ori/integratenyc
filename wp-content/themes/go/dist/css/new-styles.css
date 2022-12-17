@@ -111,7 +111,7 @@ body {
         background: transparent;
     }
 
-    #school-name.dark {
+    .dark #school-name {
         color: #121212;
     }
 
