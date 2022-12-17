@@ -215,11 +215,11 @@ body {
     }
 
     form.dark:hover {
-        background-color: #02eec3;
+        background-color: #0cfcd0;
     }
 
     form:hover {
-        background-color: #4843dd;
+        background-color: #5550f1;
         transition: all 0.5s ease-in-out;
         animation: grow-and-shrink 4000ms;
         animation-iteration-count: infinite;
